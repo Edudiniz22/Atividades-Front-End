@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400&family=Montserrat:wght@400;700&display=swap');
+
+/* Estilo global */
+body.page-body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #14213d;
+  color: #e5e5f7;
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main-header {
+  padding: 24px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(229, 229, 247, 0.2);
+}
+
+.name-title {
+  margin: 0.2rem 0;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #fca311;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  border: 3px solid #fca311;
+}
+
+.contact-info {
+  display: inline-block;
+  text-align: left;
+  font-style: italic;
+}
+
+.info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-list li {
+  margin: 8px 0;
+}
+
+section.section-box {
+  max-width: 760px;
+  margin: 24px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.7rem;
+  color: #f4f4fb;
+}
+
+.skills-list,
+.hobbies-list,
+.links-list {
+  padding-left: 1.3rem;
+}
+
+.education-card {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  background: rgba(252, 163, 17, 0.08);
+}
+
+.education-title {
+  margin: 0 0 8px;
+  font-style: oblique;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.highlight-text {
+  color: #a8dadc;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.links-list a.social-link {
+  color: #ffd166;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.links-list a.social-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer#footer-section {
+  padding: 16px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.footer-note {
+  margin: 0;
+  font-size: 0.95rem;
+  font-style: oblique;
+  color: #e5e5f7;
+}
+
+a[target="_blank"] {
+  transition: color 0.2s ease;
+}
+
+ol li,
+ul li {
+  margin-bottom: 8px;
+}
